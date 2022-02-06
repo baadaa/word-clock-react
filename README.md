@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# Word Clock
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### What it is
 
-## Available Scripts
+A bilingual work clock that displays the current time in written sentences.
 
-In the project directory, you can run:
+- Built with [Create React App](https://github.com/facebook/create-react-app) in TypeScript flavor, [Styled-components](https://www.styled-components.com/), and [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
+- Tells time in two languages (English and Korean) in text
+- Supports light and dark modes
+- Toy mode is included for playing around
 
-### `npm start`
+### Snapshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Word Clock in simple English mode in light color theme](public/eng-simple-light.jpg)
+Word Clock in simple English mode in light color theme
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Word Clock in sophisticated English mode in light color theme](public/eng-precise-light.jpg)
+Word Clock in sophisticated English mode in light color theme
 
-### `npm test`
+![Word Clock in sophisticated English mode in light color theme](public/korean-light.jpg)
+Word Clock in Korean mode in light color theme
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Word Clock in simple English mode in dark color theme](public/eng-simple-dark.jpg)
+Word Clock in simple English mode in dark color theme
 
-### `npm run build`
+![Word Clock in sophisticated English mode in dark color theme](public/eng-precise-dark.jpg)
+Word Clock in sophisticated English mode in dark color theme
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Word Clock in sophisticated English mode in dark color theme](public/korean-dark.jpg)
+Word Clock in Korean mode in dark color theme
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### TODOs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ ] State persistence via `localStorage`
+- [ ] Introduce more themes (e.g. colorways, typefaces, etc)
+- [ ] Clean up code and beef up visual styles
 
-### `npm run eject`
+### Inspirations
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [An Instructables article](https://www.instructables.com/A-Word-Clock/)
+- [An Arduino word clock](http://www.brettoliver.org.uk/Word_Clock/Word_Clock.htm?i=1)
+- [A Korean word clock](https://www.wadiz.kr/web/campaign/detail/1240)
