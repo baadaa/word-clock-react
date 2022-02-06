@@ -39,7 +39,7 @@ function App() {
   return (
     <TimeContext.Provider value={currentTime}>
       <a
-        href="https://github.com/baadaa/word-clock"
+        href="https://github.com/baadaa/word-clock-react"
         style={{ position: 'absolute', top: 0, left: 0 }}
       >
         <ForkMe />
